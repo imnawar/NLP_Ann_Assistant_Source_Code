@@ -1,0 +1,129 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Ann", "Hey"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "probability":"",
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "Bye", "Good Bye"],
+         "responses": ["Sad to see you go :(, \nSTAY SAFE ", "Talk to you later, \nSTAY SAFE", "Goodbye! \nSTAY SAFE "],
+         "probability":"",
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Ann.", "I'm Ann!", "Im Ann aka Ann Assistant."],
+         "probability":"",
+         "context_set": ""
+        },
+        {"tag": "ann",
+         "patterns": ["who are you?", "what are you doing?", "whats your work?", "whats your job?"],
+         "responses": ["Im Ann aka Ann Assistant.\nI trying to help the world to overcome the covid-19 pandemic by spreading knowledge about it and helping everyone who needs my help to konw this dangerous virus and check on its health."],
+         "probability":"",
+         "context_set": ""
+        },
+        {"tag": "covid",
+         "patterns": ["whats covid", "Whats covid-19", "what is corona virus", "tell me about covid"],
+         "responses": ["It is the new coronavirus and most cases appeared in the Chinese city, Wuhan at the end of December 2019 in the form of acute pneumonia."],
+         "probability":"",
+         "context_set": ""
+        },
+        {"tag": "covidsymptoms",
+         "patterns": ["Whats covid-19 symptoms?", "i don't know covid-19 symptoms","Whats corona symptoms?", "i don't know corona symptoms", "corona symptoms?"],
+         "responses": ["Most common symptoms:\nfever\ndry cough\ntiredness\nLess common symptoms:\naches and pains\nsore throat\ndiarrhoea\ndiscolouration (a rash on skin)\nheadache\nloss of taste or smell\n"],
+         "probability":"",
+         "context_set": ""
+        },
+        {"tag": "covidprevent",
+         "patterns": ["how can i prvent my self from covid?", "how can i prvent my self from corona?","how to prvent corona?", "how to prvent covid?", "ways to prvent covid?", "How can I prevent from covid-19?", "How to prevent covid-19"],
+         "responses": ["1 Keep your home as long as possible \n2 Keep a safe distance from others \n3 wash your hands regularly \n4 Cover your mouth and nose when you cough"],
+         "probability":"",
+         "context_set": ""
+        },
+        {"tag": "covidfeels",
+         "patterns": [ "i think i have covid", "i think i have covid-19", "i think i have corona virus", "I think I have symptoms of corona", "i think I have symptoms of covid-19", "I feel the symptoms of corona", "i have corona", "i have covid", "I feel of corona", "I feel of covid" ],
+         "responses": ["Do you have any close connect with an infected person in last 14 days?"],
+         "probability":"",
+         "context_set": ""
+        },
+        {"tag": "fever",
+          "patterns": [ "i have fever", "yes, i have fever", "yes i have some fever", "i feel of fever", "no i don't have fever", "no, i dont feel of fever" ],
+         "responses": ["ok, what do you feel anothr?", "ok, do you have any other symptoms? if you don't the symptoms please ask me for more accuracy"],
+         "probability":"19.8",
+         "context_set": ""
+        },
+        {"tag": "drycough",
+          "patterns": [ "yes i have a dry cough", "i have a dry cough", "yes i have some dry cough", "i feel of dry cough", "no i dont have dry cough", "no, i dont feel of dry cough" ],
+         "responses": ["ok, what do you feel anothr?", "ok, do you have any other symptoms? if you don't the symptoms please ask me for more accuracy"],
+         "probability":"19.8",
+         "context_set": ""
+        },
+        {"tag": "tiredness",
+          "patterns": [ "yes i have a Tiredness", "i have a Tiredness", "yes i have some Tiredness", "no i dont have Tiredness", "i feel of Tiredness", "no, i dont feel of Tiredness" ],
+         "responses": ["ok, what do you feel anothr?", "ok, do you have any other symptoms? if you don't the symptoms please ask me for more accuracy"],
+         "probability":"19.8",
+         "context_set": ""
+        },
+        {"tag": "sorethroat",
+          "patterns": [ "yes i have a sore throat", "i have a sore throat", "yes i have some sore throat", "no i dont have sore throat", "i have sore throat" ],
+         "responses": ["ok, what do you feel anothr?", "ok, do you have any other symptoms?  if you don't the symptoms please ask me for more accuracy"],
+         "probability":"6.6",
+         "context_set": ""
+        },
+        {"tag": "diarrhoea",
+         "patterns": ["yes i have a sore diarrhoea", "i have a sore diarrhoea", "yes i have some sore diarrhoea", "no i dont have sore diarrhoea"],
+         "responses": ["ok, what do you feel anothr?", "ok, do you have any other symptoms?  if you don't the symptoms please ask me for more accuracy"],
+         "probability":"6.6",
+         "context_set": ""
+        },
+        {"tag": "lossoftasteorsmell",
+         "patterns": ["yes i have a loss of taste", "i have a loss of taste","yes i have a loss of smell", "i have a loss of smell", "yes i have some loss of smell","yes i have some loss of taste","yes i have both loss of smell and taste","i have both loss of smell and taste", "no i dont have loss of smell and taste"],
+         "responses": ["ok, what do you feel anothr?", "ok, do you have any other symptoms?  if you don't the symptoms please ask me for more accuracy"],
+         "probability":"6.6",
+         "context_set": ""
+        },
+        {"tag": "achesandpains",
+         "patterns": ["yes i have an aches and pains", "i have an aches and pains", "yes i have some aches and pains", "no i dont have aches and pains"],
+         "responses": ["ok, what do you feel anothr?", "ok, do you have any other symptoms?  if you don't the symptoms please ask me for more accuracy"],
+         "probability":"6.6",
+         "context_set": ""
+        },
+        {"tag": "headache",
+         "patterns": ["yes i have a headache", "i have a headache", "yes i have some headache", "no i dont have a headache"],
+         "responses": ["ok, what do you feel anothr?", "ok, do you have any other symptoms?  if you don't the symptoms please ask me for more accuracy"],
+         "probability":"6.6",
+         "context_set": ""
+        },
+        {"tag": "discolouration",
+         "patterns": ["yes i have a discolouration ","No I don't have connected with an infected person", "i have a discolouration ", "yes i have some discolouration ", "no i dont have a discolouration "],
+         "responses": ["ok, what do you feel anothr?", "ok, do you have any other symptoms?  if you don't the symptoms please ask me for more accuracy"],
+         "probability":"6.6",
+         "context_set": ""
+        },
+        {"tag": "days",
+         "patterns": ["No, I dont connected with an infected person.", "Yes, I connected with an infected person.", "No, I was not connected with an infected person", "yes, i connected","no, i dont connected"],
+         "responses": ["what you feel?", "what of symptoms you have?  if you don't the symptoms please ask me for more accuracy", "Do you have Fever?", "Do you have Dry cough?", "Do you have Tiredness?"],
+         "probability":"",
+         "context_set": ""
+        },
+        {"tag": "thanks",
+         "patterns": ["Thank you", "thnx", "thanks","you are graeting ", "thanx"],
+         "responses": ["your welcome :), \nbut you must thank Manal and Rawan not me :)", "thank you too, happy for talk with you :), \nbut you must thank Manal and Rawan not me :)", "no thing, any time you want :), \nbut you must thank Manal and Rawan for that not me :)"],
+         "probability":"",
+         "context_set": ""
+        },
+        {"tag": "love",
+         "patterns": ["ily", "i love you", "im in love with you", "i like you"],
+         "responses": ["me too love me :)", "yes, I'm lovely one :)", "me too, i like me", "you don't know how i love me :)", "Really!! me too "],
+         "probability":"",
+         "context_set": ""
+        },
+        {"tag": "end",
+         "patterns": ["no i dont have any other symptoms","No I don't have any other symptoms", "no i dont have ", "no ", "no i don't have any other", "no i dont feel", "no, i dont feel any other symptoms"],
+         "responses": ["Well, your probability of your covid-19 is "],
+         "probability":"",
+         "context_set": ""
+        }
+   ]
+}
